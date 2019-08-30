@@ -1,10 +1,10 @@
 package de.jescochrist.generalplugin.support;
 
 /**
- * Contains code written by desht
- * (https://github.com/desht/dhutils/blob/master/Lib/src/main/java/me/desht/dhutils/cuboid/Cuboid.java)
+ * Contains code written by desht:
+ * https://github.com/desht/dhutils/blob/master/Lib/src/main/java/me/desht/dhutils/cuboid/Cuboid.java
  * or
- * (https://gitlab.intranet/cloned-spigot-plugins/dhutils/blob/master/Lib/src/main/java/me/desht/dhutils/cuboid/Cuboid.java)
+ * https://gitlab.intranet/cloned-spigot-plugins/dhutils/blob/master/Lib/src/main/java/me/desht/dhutils/cuboid/Cuboid.java
  */
 
 // Import packages
