@@ -27,6 +27,9 @@ public class Cuboid {
 			throw new IllegalArgumentException("Locations need to be in the same world");			
 		}
 		
+		// Store the given values in the local objects variables
+		this.world = l1.getWorld();
+		
 		// Calculate lower and higher values
 		this.lowerX = Math.min(l1.getBlockX(), l2.getBlockX());
 		this.higherX = Math.max(l1.getBlockX(), l2.getBlockX());
@@ -39,6 +42,9 @@ public class Cuboid {
 	
 	// Define the constructor (World, 6x int)
 	public Cuboid(World world, int x1, int x2, int y1, int y2, int z1, int z2) {
+		
+		// Store the given values in the local objects variables
+		this.world = world;
 		
 		// Calculate lower and higher values
 		this.lowerX = Math.min(x1, x2);
